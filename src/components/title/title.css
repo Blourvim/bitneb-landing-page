@@ -1,0 +1,16 @@
+.title{
+    
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.title-divider{
+    margin: 0 auto;
+    width: 420px;
+    position: relative;
+    background: linear-gradient(90deg, hsla(188, 97%, 58%, 1) 0%, hsla(205, 85%, 35%, 1) 100%);
+    height: 2px;
+}

@@ -1,16 +1,19 @@
 import './footer.css';
-const Footer =()=>{
+const Footer =(props)=>{
+
+    const {header, text, button, image,alt}= props.content
+
 
 return(
     <footer>
     <div className="footer-content">
-        <img className='footer-logo'src="./assets/BitNeb-logo.png" alt="BitNeb Logo"/>
+        <img className='footer-logo'src={image} alt={alt}/>
         <div className="footer-divider"></div>
-        <header><h1 className="footer-header">Farklı Kriptoparalar ve Limit/Stop Emirleri Kullanın</h1>
-            <p className='footer-text'>SkyNeb farklı kriptoparalar,gerçek zamanlı grafikler, grafik analizi araçları ve indikatörler ile profesyoneller için gelişmiş bir alım satım deneyimi sunar.</p>
+        <header><h1 className="footer-header">{header}</h1>
+            <p className='footer-text'>{text}</p>
             
         </header>
-        <button className='footer-button'>Hemen Başlayın</button>
+        <button className='footer-button'>{button}</button>
         
     </div>
 </footer>

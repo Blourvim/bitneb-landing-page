@@ -6,13 +6,18 @@ import footerData from './content/texts/footer';
 import ButtonSection from './components/button-section/ButtonSection';
 function App() {
   return (
+    <>
     <div className="App">
+      <div id='main'>
     <Title/>
     <LaptopSection/>
     <ButtonSection/>
-    <Footer content={footerData}/>
-
     </div>
+    </div>
+
+    <Footer id='footer' content={footerData}/>
+
+    </>
   );
 }
 

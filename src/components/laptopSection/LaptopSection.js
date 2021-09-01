@@ -4,6 +4,10 @@ import './laptop-section.css'
 const LaptopSection =()=>{
 
 return(
+<section className="laptops-section">
+<div className="laptops-divider"></div>
+<div  class='laptops'>
+{
     laptopCards.map(item=>{
 
         return(
@@ -12,6 +16,11 @@ return(
 
 
     })
+}
+</div>
+
+</section>
+ 
 )
 }
 

@@ -5,7 +5,7 @@ button:hover {
 }
 
   footer{
-    height: 8em;
+    min-height: 8em;
     margin-top: auto;
     background:#6cf;
 
@@ -23,19 +23,26 @@ button:hover {
     }
 
   .footer-content{
-    display: flex;
-    width: 90%;
+    width: 80%;
     max-width: 800px;
     margin: 0 auto;
 
   }
-
+  
 .footer-logo{
     width: 100%;
     min-width: 10rem;
     max-width: 170px;
     max-height: 100px;
     height: auto;
+    align-self: center;
+    margin: 0 auto;
+}
+@media(max-width:599px){
+
+  .footer-divider{
+    display:none
+  }
 }
 
   .footer-divider{
@@ -58,6 +65,7 @@ button:hover {
   .footer-text{
       font-size: 0.6em;
       max-width: 78ch;
+      min-width:40ch;
     color: white;
 
 
@@ -75,9 +83,22 @@ button:hover {
     display: inline-block;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
     filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 40px;
     display: inline-block;
     min-width: 120px;
-    font-size: 60%;
+    font-size: 80%;
+  }
+
+
+  .grid-item{
+display: flex;
+align-self: center;
+align-content: center;
+align-items: center;
+
+  }
+
+  .center{
+    margin:0 auto;
   }

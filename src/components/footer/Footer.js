@@ -1,4 +1,5 @@
 import './footer.css';
+import Grid from '@material-ui/core/Grid'
 const Footer =(props)=>{
 
     const {header, text, button, image,alt}= props.content
@@ -6,16 +7,25 @@ const Footer =(props)=>{
 
 return(
     <footer>
-    <div className="footer-content">
+        <Grid className='footer-content' container xs={11}md={8}>
+        <Grid item lg={3} md={3} sm={3} xs={12} className='grid-item' >
+
         <img className='footer-logo'src={image} alt={alt}/>
-        <div className="footer-divider"></div>
-        <header><h1 className="footer-header">{header}</h1>
+
+        </Grid>
+        <Grid item lg={5} md={4} sm={6} xs={12} align-content-xs-center className='grid-item'>
+        <div className='footer-divider'></div>
+
+<div className='center'>
+       <h1 className="footer-header">{header}</h1>
             <p className='footer-text'>{text}</p>
-            
-        </header>
-        <button className='footer-button'>{button}</button>
-        
-    </div>
+            </div>       
+
+        </Grid>
+        <Grid item  lg={3}  md={4} sm={12}xs={12} align-content-xs-center className='grid-item'>
+        <button className='footer-button center'>{button}</button>
+        </Grid>
+    </Grid>
 </footer>
 )
 

@@ -1,12 +1,11 @@
 import './button-section.css';
 
-const ButtonSection =()=>{
-
+const ButtonSection =(props)=>{
 return(
 
     
 <section className="button-section">
-    <button className='button'>Hemen Başlayın</button>
+    <button className='button'>{props.content}</button>
     
 </section>
 

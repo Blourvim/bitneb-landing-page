@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/bitneb-landing/static/css/main.a0c7864d.chunk.css",
-    "main.js": "/bitneb-landing/static/js/main.506ee52e.chunk.js",
-    "main.js.map": "/bitneb-landing/static/js/main.506ee52e.chunk.js.map",
-    "runtime-main.js": "/bitneb-landing/static/js/runtime-main.3c8d2e20.js",
-    "runtime-main.js.map": "/bitneb-landing/static/js/runtime-main.3c8d2e20.js.map",
-    "static/js/2.a17346c8.chunk.js": "/bitneb-landing/static/js/2.a17346c8.chunk.js",
-    "static/js/2.a17346c8.chunk.js.map": "/bitneb-landing/static/js/2.a17346c8.chunk.js.map",
-    "static/js/3.f7f0fb69.chunk.js": "/bitneb-landing/static/js/3.f7f0fb69.chunk.js",
-    "static/js/3.f7f0fb69.chunk.js.map": "/bitneb-landing/static/js/3.f7f0fb69.chunk.js.map",
-    "index.html": "/bitneb-landing/index.html",
-    "static/css/main.a0c7864d.chunk.css.map": "/bitneb-landing/static/css/main.a0c7864d.chunk.css.map",
-    "static/js/2.a17346c8.chunk.js.LICENSE.txt": "/bitneb-landing/static/js/2.a17346c8.chunk.js.LICENSE.txt",
-    "static/media/BitNeb-logo.1d1a9089.png": "/bitneb-landing/static/media/BitNeb-logo.1d1a9089.png",
-    "static/media/App.css": "/bitneb-landing/static/media/hexagons-with-gradient.9193cafa.png",
-    "static/media/laptop-1.6196b5c0.png": "/bitneb-landing/static/media/laptop-1.6196b5c0.png",
-    "static/media/laptop-2.6f0725c4.png": "/bitneb-landing/static/media/laptop-2.6f0725c4.png",
-    "static/media/laptop-3.8cd1a444.png": "/bitneb-landing/static/media/laptop-3.8cd1a444.png",
-    "static/media/laptop-4.7320747b.png": "/bitneb-landing/static/media/laptop-4.7320747b.png"
+    "main.css": "/bitneb-landing-page/static/css/main.e622aa5e.chunk.css",
+    "main.js": "/bitneb-landing-page/static/js/main.506ee52e.chunk.js",
+    "main.js.map": "/bitneb-landing-page/static/js/main.506ee52e.chunk.js.map",
+    "runtime-main.js": "/bitneb-landing-page/static/js/runtime-main.60bf9248.js",
+    "runtime-main.js.map": "/bitneb-landing-page/static/js/runtime-main.60bf9248.js.map",
+    "static/js/2.a17346c8.chunk.js": "/bitneb-landing-page/static/js/2.a17346c8.chunk.js",
+    "static/js/2.a17346c8.chunk.js.map": "/bitneb-landing-page/static/js/2.a17346c8.chunk.js.map",
+    "static/js/3.f7f0fb69.chunk.js": "/bitneb-landing-page/static/js/3.f7f0fb69.chunk.js",
+    "static/js/3.f7f0fb69.chunk.js.map": "/bitneb-landing-page/static/js/3.f7f0fb69.chunk.js.map",
+    "index.html": "/bitneb-landing-page/index.html",
+    "static/css/main.e622aa5e.chunk.css.map": "/bitneb-landing-page/static/css/main.e622aa5e.chunk.css.map",
+    "static/js/2.a17346c8.chunk.js.LICENSE.txt": "/bitneb-landing-page/static/js/2.a17346c8.chunk.js.LICENSE.txt",
+    "static/media/BitNeb-logo.1d1a9089.png": "/bitneb-landing-page/static/media/BitNeb-logo.1d1a9089.png",
+    "static/media/App.css": "/bitneb-landing-page/static/media/hexagons-with-gradient.9193cafa.png",
+    "static/media/laptop-1.6196b5c0.png": "/bitneb-landing-page/static/media/laptop-1.6196b5c0.png",
+    "static/media/laptop-2.6f0725c4.png": "/bitneb-landing-page/static/media/laptop-2.6f0725c4.png",
+    "static/media/laptop-3.8cd1a444.png": "/bitneb-landing-page/static/media/laptop-3.8cd1a444.png",
+    "static/media/laptop-4.7320747b.png": "/bitneb-landing-page/static/media/laptop-4.7320747b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c8d2e20.js",
+    "static/js/runtime-main.60bf9248.js",
     "static/js/2.a17346c8.chunk.js",
-    "static/css/main.a0c7864d.chunk.css",
+    "static/css/main.e622aa5e.chunk.css",
     "static/js/main.506ee52e.chunk.js"
   ]
 }

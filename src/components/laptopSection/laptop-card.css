@@ -16,11 +16,11 @@
     color:#405BCD;
     text-align: center;
     padding: 0;
-    margin: 0px;
+    margin: 0 auto;
     margin-top: 30px;
     font-size: 1em;
     font-weight: normal;
-        width: 170px;
+        width: 140px;
 
 }
 
@@ -29,11 +29,12 @@
     color:#11141D;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 10px;
     font-size: 1em;
     font-weight: normal;
-        width: 170px;
+    width: 140px;
+
 
 
 }
@@ -41,13 +42,16 @@
 .card-image{
     -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.226)); 
     filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.226));  
-    width: 165px;
-    margin-left: 13px;
+    width: 140px;
+    margin: 0 auto;
 }
 .card-text{
     text-align: center;
     font-size: 0.7em;
+    
     margin: 0px;
     color:HSL(240, 1%, 45%);
     max-width: 35ch;
+    margin: 0 auto;
+
 }

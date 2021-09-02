@@ -25,3 +25,11 @@
   
 
 }
+
+
+@media(max-width:959px){
+
+    .laptops-divider{
+      display:none
+    }
+  }

@@ -1,0 +1,27 @@
+.laptops-section{
+    position: relative;
+    width: 100%;
+    margin-top:3.5em; 
+  
+}
+
+.laptops{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.laptops-divider{
+    background:#6E8CC8;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 62%; left: 50%;
+    transform: translate(-50%,-50%);
+  
+
+}

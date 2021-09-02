@@ -1,0 +1,26 @@
+.button {
+    background-color: #3F5BCD;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.8rem;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596));
+    filter:         drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.596)); 
+  }
+
+  .button-section{
+    padding:10px;
+    padding-bottom:160px; /* Height of the footer */
+  }
+
+  button:hover {
+    color: #001F3F;
+    background-color: #5f7beb;
+    cursor: pointer;
+}

@@ -7,7 +7,7 @@ const Footer =(props)=>{
 
 return(
     <footer>
-        <Grid className='footer-content' container xs={11}md={10}>
+        <Grid className='footer-content' container >
         <Grid item lg={3} md={3} sm={3} xs={12} className='grid-item' >
 
         <img className='footer-logo'src={image} alt={alt}/>
@@ -22,7 +22,7 @@ return(
             </div>       
 
         </Grid>
-        <Grid item style={{margin:20}} lg={2}  md={3} sm={2}xs={12} marginTop='20px' className='grid-item'>
+        <Grid item style={{margin:20}} lg={2}  md={2} sm={2}xs={12}  className='grid-item'>
         <button className='footer-button center'>{button}</button>
         </Grid>
     </Grid>

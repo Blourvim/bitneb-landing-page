@@ -7,7 +7,7 @@ const LaptopSection =()=>{
 return(
 <section className="laptops-section">
 <div className="laptops-divider"></div>
-<div  class='laptops'>
+<div  className='laptops'>
     <Grid container>
 {
     laptopCards.map(item=>{

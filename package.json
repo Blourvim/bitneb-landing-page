@@ -2,6 +2,7 @@
   "name": "bitneb-landing-page",
   "version": "0.1.0",
   "private": true,
+    "homepage": "https://blourvim.github.io/bitneb-landing",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.14.1",
@@ -13,6 +14,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-deploy -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
